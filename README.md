@@ -1,6 +1,7 @@
 # No Summon Vision
 
-In core Foundry, when a player selects a token with "Has Vision" disabled, they can only see their previously explored portions of the map, and can't even control the selected token, because they can't "see" it!
+In core Foundry, when a player selects a token with "Has Vision" disabled, they can only see their previously explored portions of the map through the fog of war.
+They can't see other tokens, including their own, because they are hidden by the fog of war.
 This is very inconvenient for cases where a player has summoned a creature or token, but you don't want the player to be able to see through that token's vision, such as a spiritual weapon or the like.
 Previous workarounds basically required giving the token vision, which could result in spoilers or simply a tactical advantage from seeing around corners.
 
