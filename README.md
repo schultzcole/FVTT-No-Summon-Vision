@@ -13,7 +13,6 @@ Now, summons can have "Has Vision" disabled, but the player will still be able t
 This module is likely incompatible with any module which overrides `SightLayer#updateToken`. This includes, but is not limited to:
 
 - ❌ Haste by grape_juice
-- ❌ Wall Height by me (cole)
 
 I'll be working to add compatibility for these as soon as possible.
 Compatibility patches for No Summon Vision are possible and easy.
