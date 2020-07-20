@@ -15,8 +15,8 @@ function patch_SightLayer_updateToken() {
         if (token.data.hidden && !game.user.isGM) return;
 
         // Vision is displayed if the token is controlled, or if it is observed by a player with no tokens controlled
-        let displayVision = token._controlled /* ADDED */ && token.vision.sight;
-        if (!displayVision && !game.user.isGM /* REMOVED /* && !canvas.tokens.controlled.length */) {
+        let displayVision = token._controlled;
+        if (!displayVision && !game.user.isGM && /* CHANGED */ canvas.tokens.controlled.every((t) => !t.data.vision)) {
             displayVision = token.actor && token.actor.hasPerm(game.user, "OBSERVER");
         }
 
