@@ -1,15 +1,7 @@
 # CHANGELOG
 
-## [VERSION] ISO DATE
+## [1.0.0] 2020-07-20
 
 ### ADDED
 
-### REMOVED
-
-### CHANGED
-
-### FIXED
-
-### DEPRECATED
-
-### SECURITY
+- Allow players to see through their "default" vision when they have a token without vision selected.
