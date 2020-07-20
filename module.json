@@ -1,23 +1,18 @@
 {
-  "name": "module-name",
-  "title": "Module Title",
-  "description": "description",
-  "version": "<VERSION NUMBER HERE>",
+  "name": "no-summon-vision",
+  "title": "No Summon Vision",
+  "description": "Players see through their default vision when they control a token without vision",
+  "version": "1.0.0",
   "author": "Cole Schultz (cole#9640)",
   "esmodules": [
-    "MY SCRIPT"
+    "no-summon-vision.js"
   ],
-  "styles": [
-    "MY STYLESHEET"
-  ],
-  "minimumCoreVersion": "0.6.4",
-  "compatibleCoreVersion": "0.6.4",
-	"url": "https://github.com/schultzcole/<REPO_URL_HERE>",
-	"manifest": "https://raw.githubusercontent.com/schultzcole/<REPO_URL_HERE>/master/module.json",
-	"download": "https://github.com/schultzcole/<REPO_URL_HERE>/archive/<VERSION NUMBER HERE>.zip",
-	"license": "https://github.com/schultzcole/<REPO_URL_HERE>/blob/<VERSION NUMBER HERE>/LICENSE",
-	"readme": "https://github.com/schultzcole/<REPO_URL_HERE>/blob/<VERSION NUMBER HERE>/README.md",
-	"changelog": "https://github.com/schultzcole/<REPO_URL_HERE>/blob/<VERSION NUMBER HERE>/CHANGELOG.md"
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.6.5",
+  "url": "https://github.com/schultzcole/FVTT-No-Summon-Vision",
+  "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-No-Summon-Vision/master/module.json",
+  "download": "https://github.com/schultzcole/FVTT-No-Summon-Vision/archive/1.0.0.zip",
+  "license": "https://github.com/schultzcole/FVTT-No-Summon-Vision/blob/1.0.0/LICENSE",
+  "readme": "https://github.com/schultzcole/FVTT-No-Summon-Vision/blob/1.0.0/README.md",
+  "changelog": "https://github.com/schultzcole/FVTT-No-Summon-Vision/blob/1.0.0/CHANGELOG.md"
 }
-
- 
