@@ -1,4 +1,6 @@
-# No Summon Vision
+# No Summon Vision (Obsolete)
+
+*Obsolete in foundry core versions 0.7 and up*
 
 In core Foundry, when a player selects a token with "Has Vision" disabled, they can only see their previously explored portions of the map through the fog of war.
 They can't see other tokens, including their own, because they are hidden by the fog of war.
